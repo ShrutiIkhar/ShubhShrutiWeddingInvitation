@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f3ec">
+  <meta name="description" content="Shruti & Shubham — our wedding invitation. We would love for you to be part of our special day.">
+  <meta property="og:title" content="Shruti & Shubham — Our Wedding Invitation ♡">
+  <meta property="og:description" content="We would love for you to be a part of our special day.">
+  <meta property="og:type" content="website">
+  <title>Shruti & Shubham — Our Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="petal petal-a"></div><div class="petal petal-b"></div>
+
+  <header class="hero" id="home">
+    <img class="hero-image" id="heroImage" alt="" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-overlay"></div>
+    <button class="music-btn sticky-music-btn" id="musicBtnTop" aria-pressed="false">
+      <span class="music-icon" aria-hidden="true">♫</span>
+      <span class="music-label">Play Our Song</span>
+    </button>
+    <div class="hero-content">
+      <p class="eyebrow light">Together with their families</p>
+      <h1><span id="brideHero"></span><i>&</i><span id="groomHero"></span></h1>
+      <p class="hero-sub">are getting married</p>
+      <div class="date-pill" id="heroDate"></div>
+      <button class="primary-btn" data-scroll="#countdown">Explore Our Wedding</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section countdown-section" id="countdown">
+      <p class="eyebrow">the countdown begins...</p>
+      <h2 id="countdownTitle">Until we say “I do”</h2>
+      <div class="countdown" id="countdownGrid">
+        <div><strong id="days">00</strong><span>Days</span></div>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="section story-section">
+      <div class="section-heading">
+        <p class="eyebrow">a little piece of us</p>
+        <h2>Our Story</h2>
+      </div>
+      <div class="story-grid">
+        <div class="story-collage">
+          <img id="storyMain" class="story-main" alt="Couple photograph">
+          <img id="storySmall1" class="story-small story-small-1" alt="Couple photograph">
+          <img id="storySmall2" class="story-small story-small-2" alt="Couple photograph">
+          <span class="botanical botanical-story">✿</span>
+        </div>
+        <div class="story-copy">
+          <p class="story-intro" id="storyIntro"></p>
+          <p id="storyText"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section details-section">
+      <div class="section-heading">
+        <p class="eyebrow">the day we've been waiting for</p>
+        <h2>Wedding Details</h2>
+      </div>
+      <div id="events" class="events-grid"></div>
+    </section>
+
+    <section class="location-section">
+      <div class="location-inner">
+        <div>
+          <p class="eyebrow">save the place</p>
+          <h2>Join Us As We<br><em>Begin Forever</em></h2>
+          <div class="venue-line"><span>⌖</span><div><strong id="venueName"></strong><p id="venueAddress"></p></div></div>
+          <a class="outline-btn" id="mapsBtn" target="_blank" rel="noopener">Get Directions ↗</a>
+        </div>
+        <div class="map-card qr-card">
+          <img class="location-qr" src="image/location_qr_code.png" alt="QR code for the wedding venue location">
+          <p>SCAN FOR THE LOCATION</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <div class="section-heading">
+        <p class="eyebrow">little moments</p>
+        <h2>A Few Moments<br><em>Before Forever</em></h2>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section class="section message-section">
+      <div class="message-card">
+        <span class="quote-mark">“</span>
+        <p class="eyebrow">from our hearts</p>
+        <h2>Your presence means<br>the world to us.</h2>
+        <p id="personalMessage"></p>
+        <div class="signature"><span id="messageBride"></span> & <span id="messageGroom"></span></div>
+      </div>
+    </section>
+
+    <audio id="musicPlayer" loop></audio>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-flower">✿</div>
+    <p class="eyebrow">with love,</p>
+    <h2 id="footerNames"></h2>
+    <p id="footerDate"></p>
+    <div class="heart">♡</div>
+  </footer>
+
+  <div class="lightbox" id="lightbox"><button id="closeLightbox" aria-label="Close">×</button><img id="lightboxImg" alt="Wedding photograph"></div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
