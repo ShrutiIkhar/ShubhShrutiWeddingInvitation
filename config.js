@@ -21,7 +21,7 @@ const WEDDING = {
   instagramUrl: "",
 
   musicUrl: "music/सजर गजर  SAJIRI GOJIRI  VIDEO SONG  TTMM (तझ त मझ म)  LALIT PRABHAKAR, NEHA MAHAJAN.mp3", // Optional direct audio file URL
-  heroImage: "optimized/hero.webp",
+  heroImage: "optimized/hero copy.png",
 
   storyImages: [
     "optimized/story-1.webp",
