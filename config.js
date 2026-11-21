@@ -47,7 +47,7 @@ const WEDDING = {
     {
       title: "Sangeet Ki Mehfil",
       date: "11th December 2026",
-      time: "07:00 PM",
+      time: "07:00 PM ",
       venue: "Krushnpingaksh Wada",
       address: "Kharpudi Road, Sawant Wasti, Shiroli, Pune, Maharashtra 410505"
     },
